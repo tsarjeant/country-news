@@ -1,0 +1,20 @@
+body {
+	background-color:#F0EFEE;
+}
+
+.header {
+	background: #2b25dd;
+	color: #fff;
+	min-height: 25rem;
+	padding:2rem;
+}
+
+.links {
+	list-style: none;
+}
+
+.links>li {
+	float:right;
+	display: block;
+	margin:1rem;
+}

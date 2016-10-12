@@ -1,0 +1,31 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "dev": "http-server -p 7070 && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsarjeant/react-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsarjeant/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/tsarjeant/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "bootstrap-sass": "^3.3.7",
+    "history": "^1.13.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-icons": "^2.2.1",
+    "react-router": "^2.8.1",
+    "watchify": "^3.7.0"
+  }
+}
